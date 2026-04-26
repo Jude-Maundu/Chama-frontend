@@ -191,7 +191,7 @@
     <div v-if="successMessage" class="alert alert-success">
       {{ successMessage }}
     </div>
-  </div>
+
 </template>
 
 <script>
