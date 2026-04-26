@@ -1,0 +1,1 @@
+import{a as e}from"./axios-DKRwMIu8.js";const n={getAll(){return e.get("/settings")},get(t){return e.get(`/settings/${t}`)},create(t){return e.post("/settings",t)},update(t,s){return e.put(`/settings/${t}`,s)},delete(t){return e.delete(`/settings/${t}`)},bulkUpdate(t){return e.post("/settings/bulk-update",t)}};export{n as s};

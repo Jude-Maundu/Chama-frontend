@@ -1,0 +1,1 @@
+import{a as t}from"./axios-DKRwMIu8.js";const o={login(r){return t.post("/auth/login",r)},register(r){return t.post("/auth/register",r)},logout(){return t.post("/auth/logout")},fetchUser(){return t.get("/user")}};export{o as a};
