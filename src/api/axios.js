@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://chama-backend-laravel.onrender.com/api',
+  baseURL: 'https://chama-backend-laravel-master-dl6jst.free.laravel.cloud/api',
   headers: {
     'Content-Type': 'application/json'
   }
