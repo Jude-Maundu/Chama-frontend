@@ -653,6 +653,12 @@ if (typeof window !== 'undefined') {
   border-color: rgba(46, 125, 50, 0.3);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
+.glass-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(46, 125, 50, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
 
 .feature-card {
   padding: 32px;
